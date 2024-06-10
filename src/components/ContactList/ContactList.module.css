@@ -1,0 +1,30 @@
+
+.titleContact {
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.itemsContact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.itemName {
+  margin-right: 20px;
+}
+
+.containerBtnDel {
+  display: inline;
+  padding-left: 10px;
+}
+.btnDelete {
+  cursor: pointer;
+}
+
+.btnDelete:hover {
+  background: #CBCBCB;
+}
+
