@@ -16,6 +16,7 @@ function FilterContacts() {
       return(
         <div className={styles.containerFilter}>
           <h3 className={styles.titleFilter}>Contacts</h3>
+          <div className={styles.filterContent}>
           <h3 className={styles.titleContact}>Find contacts by name</h3>
           <input
             className={styles.filterInput}
@@ -26,6 +27,7 @@ function FilterContacts() {
             onChange={handleAddFilter}
             required
           />
+          </div>
         </div>
       )
 }

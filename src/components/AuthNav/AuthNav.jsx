@@ -3,7 +3,7 @@ import styles from './AuthNav.module.css';
 
 export const AuthNav = () => {
   return (
-    <div>
+    <div className={styles.navigationContainer}>
       <NavLink className={styles.link} to="/register">
         Register
       </NavLink>

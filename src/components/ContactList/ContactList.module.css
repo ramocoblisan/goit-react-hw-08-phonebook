@@ -1,8 +1,18 @@
+.containerContacts {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .titleContact {
   padding-left: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  font-size: 20px;
+  color: #22223b;
 }
 
 .itemsContact {
@@ -10,6 +20,9 @@
   flex-direction: column;
   gap: 15px;
   padding-left: 20px;
+  font-family: "Mate", serif;
+  font-size: 18px;
+  color: #22223b;
 }
 
 .itemName {
@@ -22,9 +35,16 @@
 }
 .btnDelete {
   cursor: pointer;
+  background-color: #4a4e69;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .btnDelete:hover {
-  background: #CBCBCB;
+  background-color: #22223b;
 }
 

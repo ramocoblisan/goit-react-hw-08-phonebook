@@ -1,7 +1,9 @@
+
 .link {
   display: inline-block;
   text-decoration: none;
   padding: 12px;
   font-weight: 700;
-  color: #2a363b;
+  color: #4a4e69;
+  border:  thick double #9a8c98;
 }
